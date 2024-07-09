@@ -14,8 +14,8 @@ function HandleSubmit(event){
 }
 function calcularEquipo(team) {
   const equipos = {
-    "Equipo 1": ["Pipe, Juarez, Finlai, Felipe, Bruno y Jere"],
-    "Equipo 2": ["Santi, Uru, Amigo de Uru, Cain, Amigo de Cain y Sebas"]
+    equipo1: ["Pipe", "Juarez", "Finlai", "Felipe", "Bruno", "Jere"],
+    equipo2: ["Santi", "Uru", "Amigo de Uru", "Cain", "Amigo de Caín", "Sebas"]
   };
 
   return equipos[team] ? equipos[team].join(", ") : "Equipo no encontrado";
